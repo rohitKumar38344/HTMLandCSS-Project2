@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list-items {
+  margin-right: 2.4rem;
+}
+
+.nav-list-items a:link,
+.nav-list-items a:visited {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #444;
+}
+
+.nav-list-items a:hover,
+.nav-list-items a:active {
+  color: #5955b3;
+}
+
+main {
+  display: flex;
+}
+
+.section-left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+  padding: 0 3.2rem;
+}
+
+.heading-primary {
+  font-size: 6.8rem;
+  font-weight: 600;
+  color: #3c2f60;
+}
+
+.heading-primary span {
+  color: #5955b3;
+}
+
+.description {
+  color: #828282;
+  margin-bottom: 3.2rem;
+  line-height: 1.4;
+}
+
+.section-right img {
+  max-width: 100%;
+}
+
+.btn {
+  font-size: 1.8rem;
+  color: #fff;
+  background-color: #5955b3;
+  padding: 0.8em 1.2em;
+  border: none;
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #3c2f60;
+}
+
+.contact-btn {
+  margin-right: 3.2rem;
+}
+
+.services-btn {
+  align-self: flex-start;
+}
